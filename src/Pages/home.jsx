@@ -24,7 +24,7 @@ const Home = () => {
       </Button>
       </div>
       <PlotsEx />
-      <Button className="md:block hidden cursor-pointer" onClick={() => navigate("/home")}>
+      <Button className="md:block hidden cursor-pointer" onClick={() => navigate("/plot")}>
         Get Started
       </Button>
       <Footer />
